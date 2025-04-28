@@ -38,10 +38,7 @@ public class Event
                 case 2 -> viewEvents();
                 case 3 -> registerAttendee();
                 case 4 -> viewAttendees();
-                case 0 -> {
-                    System.out.println("Goodbye!");
-                    return;
-                }
+       
                 default -> System.out.println("Invalid choice!");
             }
         }
